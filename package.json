@@ -1,0 +1,36 @@
+{
+  "name": "main-entry",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "ace7upp@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode=development --watch --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --mode=production --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
