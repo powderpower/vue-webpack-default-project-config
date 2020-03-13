@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "webpack --mode=development --watch --progress --hide-modules",
+    "watch": "webpack --mode=development --watch --progress --hide-modules",
     "build": "cross-env NODE_ENV=production webpack --mode=production --progress --hide-modules"
   },
   "dependencies": {
